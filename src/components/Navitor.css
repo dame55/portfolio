@@ -1,0 +1,50 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(45deg, #f06,#3cf,#f06);;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+
+    
+    
+}
+.navi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    
+}
+.navi li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+  
+    
+    
+}
+.navi li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+}
+.navi li a:hover{
+   color: aqua;
+
+    
+}
+h1{
+    color: rgb(0, 208, 255);
+    margin-left: 20px;
+    
+    
+
+}
+span{
+    color: rgb(185, 240, 6);
+}
+nav .logo{
+    text-decoration: none;
+}
